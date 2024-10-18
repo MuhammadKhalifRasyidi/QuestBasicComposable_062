@@ -67,6 +67,11 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold,
             fontSize = 25.sp
         )
+
+        Text(text = "MUHAMMAD kHALIF RASYIDI",
+            fontWeight = FontWeight.Bold,
+            fontSize = 25.sp
+        )
     }
 }
 
