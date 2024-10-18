@@ -83,11 +83,13 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         Text(text = "MUHAMMAD KHALIF RASYIDI",
             fontWeight = FontWeight.Bold,
             fontSize = 25.sp,
+            color = Color(0xFFCF0307)
         )
 
         Text(text = "20220140062",
             fontWeight = FontWeight.Bold,
-            fontSize = 25.sp
+            fontSize = 25.sp,
+            modifier = Modifier.padding(bottom = 16.dp)
         )
 
         Image(painter = painterResource(id = R.drawable.jek),
