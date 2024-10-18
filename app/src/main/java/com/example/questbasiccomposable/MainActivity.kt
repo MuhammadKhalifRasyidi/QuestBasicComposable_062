@@ -75,7 +75,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
 
 
         Text(text = "Name",
-            fontSize = 25.sp
+            fontSize = 25.sp,
+            fontStyle = FontStyle.Italic,
+            fontFamily = FontFamily.Serif
         )
 
         Text(text = "MUHAMMAD KHALIF RASYIDI",
