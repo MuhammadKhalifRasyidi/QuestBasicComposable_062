@@ -48,17 +48,18 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         modifier = Modifier.fillMaxSize()
     ){
         Text(text = "LOGIN",
+            style = TextStyle(
+                fontSize = 50.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black,
+            ),
+        )
+
+        Text(text = "This is the LogIn page",
             fontWeight = FontWeight.Bold,
             fontSize = 25.sp
         )
 
-        Text(text = "This is the LogIn page",
-            style = TextStyle(
-                fontSize = 50.sp,
-                fontWeight = FontWeight.Bold,
-                color = Color.Red,
-            ),
-        )
 
         Image(painter = painterResource(id = R.drawable.umy),
             contentDescription = null)
@@ -68,7 +69,7 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             fontSize = 25.sp
         )
 
-        Text(text = "MUHAMMAD kHALIF RASYIDI",
+        Text(text = "MUHAMMAD KHALIF RASYIDI",
             fontWeight = FontWeight.Bold,
             fontSize = 25.sp
         )
