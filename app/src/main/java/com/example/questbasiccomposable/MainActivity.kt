@@ -58,6 +58,8 @@ fun BasicCompose(modifier: Modifier = Modifier) {
                 color = Color.Red,
             ),
         )
+        Image(painter = painterResource(id = R.drawable.umy),
+            contentDescription = null)
     }
 }
 
