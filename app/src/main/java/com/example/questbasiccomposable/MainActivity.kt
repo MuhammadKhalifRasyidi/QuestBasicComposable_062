@@ -93,7 +93,10 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
 
         Image(painter = painterResource(id = R.drawable.jek),
-            contentDescription = null)
+            contentDescription = null,
+            modifier = Modifier
+                .padding(bottom = 16.dp)
+        )
     }
 }
 
