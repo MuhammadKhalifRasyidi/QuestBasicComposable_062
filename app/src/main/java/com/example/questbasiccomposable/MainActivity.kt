@@ -77,6 +77,9 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold,
             fontSize = 25.sp
         )
+
+        Image(painter = painterResource(id = R.drawable.jek),
+            contentDescription = null)
     }
 }
 
