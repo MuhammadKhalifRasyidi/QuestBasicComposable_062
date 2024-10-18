@@ -51,6 +51,13 @@ fun BasicCompose(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold,
             fontSize = 25.sp
         )
+        Text(text = "This is the LogIn page",
+            style = TextStyle(
+                fontSize = 50.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red,
+            ),
+        )
     }
 }
 
