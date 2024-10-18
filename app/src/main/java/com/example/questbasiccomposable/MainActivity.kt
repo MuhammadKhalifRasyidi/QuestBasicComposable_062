@@ -47,6 +47,10 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
     ){
+        Text(text = "LOGIN",
+            fontWeight = FontWeight.Bold,
+            fontSize = 25.sp
+        )
     }
 }
 
