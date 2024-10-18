@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -21,6 +22,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.questbasiccomposable.ui.theme.QuestBasicComposableTheme
 
@@ -39,7 +41,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
 
 @Preview(showBackground = true)
 @Composable
@@ -65,17 +66,21 @@ fun BasicCompose(modifier: Modifier = Modifier) {
         )
 
 
-        Image(painter = painterResource(id = R.drawable.umy),
-            contentDescription = null)
+        Image(painter = painterResource(id = R.drawable.umy3),
+            contentDescription = null,
+            modifier = Modifier
+                .size(300.dp)
+                .padding(top = 50.dp)
+            )
+
 
         Text(text = "Name",
-            fontWeight = FontWeight.Bold,
             fontSize = 25.sp
         )
 
         Text(text = "MUHAMMAD KHALIF RASYIDI",
             fontWeight = FontWeight.Bold,
-            fontSize = 25.sp
+            fontSize = 25.sp,
         )
 
         Text(text = "20220140062",
